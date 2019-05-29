@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.main {
+    min-height: 100px;
+    background-image: url(img/foncat.jpg);
+    background-size: 100%;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.menu {
+    display: inline-block;
+    position: relative;
+    width: 15%;
+    border: 3px solid black;
+    background: gray;
+    margin-top: 40px;
+ }
+
+ .main-left {
+     background-image: url(img/foncat.jpg);
+     background-size: 100%;
+ }
+ .menu-left {
+    border: 3px solid black;
+    background: gray;
+    margin-top: 3px;
+}
+
+.menu a {
+    padding: 10px;  
+}
+
+#main .aside {
+    float: left;
+    width: 230px;
+    background: grey;
+    min-height: 150px;
+    position: relative;
+    left: 5px;
+    z-index: 1;
+}
+
+a {
+    font-size: 26px;
+    text-decoration: none; 
+}
+
+#main .content{
+    width: calc(100% - 250px);
+   /* 
+    width: calc((100% - 300px) / 2);
+   +  -  /
+   cm mm in pt pc px
+    deg grad rad turn
+    s ms
+   */
+    margin-left: 250px;
+    position: relative;
+    text-align: justify;
+    
+}
+
+#footer{
+    min-height: 100px;
+    background: gray;
+    text-align: center;
+    line-height: 100px;
+}
+
+#totop{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    background: black;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.logo img{
+    width: 100px;
+    padding-top: 3px;
+    padding-left: 50px;
+    float: left;
+}
+
+a:visited{
+    color:gold;
+}
+
+a:hover{
+    color: brown;
+}
